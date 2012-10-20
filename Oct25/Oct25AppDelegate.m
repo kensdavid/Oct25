@@ -7,16 +7,23 @@
 //
 
 #import "Oct25AppDelegate.h"
+#import "View.h"
 
 @implementation Oct25AppDelegate
-
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    UIScreen *screen = [UIScreen mainScreen];
+    CGRect applicationFrame = screen.applicationFrame;
+    CGRect bounds = screen.bounds;
+    
+    view = [[View alloc] initWithFrame: applicationFrame];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     //self.window.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:view];
     [self.window makeKeyAndVisible];
     return YES;
 }

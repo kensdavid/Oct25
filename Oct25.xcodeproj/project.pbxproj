@@ -17,6 +17,8 @@
 		BEBD5E881631C68600AA2588 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBD5E841631C68600AA2588 /* Icon-72@2x.png */; };
 		BEBD5E891631C68600AA2588 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBD5E851631C68600AA2588 /* Icon.png */; };
 		BEBD5E8A1631C68600AA2588 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBD5E861631C68600AA2588 /* Icon@2x.png */; };
+		BED3E0E11632C73B00E616E9 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = BED3E0E01632C73B00E616E9 /* View.m */; };
+		BED3E0E41632DB2C00E616E9 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = BED3E0E31632DB2C00E616E9 /* screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,9 @@
 		BEBD5E841631C68600AA2588 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = SOURCE_ROOT; };
 		BEBD5E851631C68600AA2588 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
 		BEBD5E861631C68600AA2588 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		BED3E0DF1632C73B00E616E9 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		BED3E0E01632C73B00E616E9 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		BED3E0E31632DB2C00E616E9 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen.png; path = ../../screen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,8 @@
 				BEBD5E7B1631C4D900AA2588 /* Oct25AppDelegate.h */,
 				BEBD5E7C1631C4D900AA2588 /* Oct25AppDelegate.m */,
 				BEBD5E731631C4D900AA2588 /* Supporting Files */,
+				BED3E0DF1632C73B00E616E9 /* View.h */,
+				BED3E0E01632C73B00E616E9 /* View.m */,
 			);
 			path = Oct25;
 			sourceTree = "<group>";
@@ -90,6 +97,7 @@
 		BEBD5E731631C4D900AA2588 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BED3E0E31632DB2C00E616E9 /* screen.png */,
 				BEBD5E831631C68600AA2588 /* Icon-72.png */,
 				BEBD5E841631C68600AA2588 /* Icon-72@2x.png */,
 				BEBD5E851631C68600AA2588 /* Icon.png */,
@@ -157,6 +165,7 @@
 				BEBD5E881631C68600AA2588 /* Icon-72@2x.png in Resources */,
 				BEBD5E891631C68600AA2588 /* Icon.png in Resources */,
 				BEBD5E8A1631C68600AA2588 /* Icon@2x.png in Resources */,
+				BED3E0E41632DB2C00E616E9 /* screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +178,7 @@
 			files = (
 				BEBD5E791631C4D900AA2588 /* main.m in Sources */,
 				BEBD5E7D1631C4D900AA2588 /* Oct25AppDelegate.m in Sources */,
+				BED3E0E11632C73B00E616E9 /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +282,7 @@
 				BEBD5E821631C4D900AA2588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

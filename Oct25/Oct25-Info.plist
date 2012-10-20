@@ -44,6 +44,8 @@
 	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>UILaunchImageFile</key>
-	<string></string>
+	<string>screen.png</string>
+	<key>UIStatusBarHidden</key>
+	<true/>
 </dict>
 </plist>
