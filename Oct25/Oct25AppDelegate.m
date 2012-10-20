@@ -18,6 +18,11 @@
     UIScreen *screen = [UIScreen mainScreen];
     CGRect applicationFrame = screen.applicationFrame;
     CGRect bounds = screen.bounds;
+    NSLog(@"application:didFinishLaunchingWithOptions: bounds.origin == (%g, %g), bounds.size == %g × %g",
+          bounds.origin.x,
+          bounds.origin.y,
+          bounds.size.width,
+          bounds.size.height);
     
     view = [[View alloc] initWithFrame: applicationFrame];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -49,6 +54,9 @@
     /*
      Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
      */
+    
+    //Refresh the view!!
+    [view setNeedsDisplay];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
