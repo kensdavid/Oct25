@@ -13,6 +13,10 @@
 		BEBD5E771631C4D900AA2588 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEBD5E751631C4D900AA2588 /* InfoPlist.strings */; };
 		BEBD5E791631C4D900AA2588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBD5E781631C4D900AA2588 /* main.m */; };
 		BEBD5E7D1631C4D900AA2588 /* Oct25AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBD5E7C1631C4D900AA2588 /* Oct25AppDelegate.m */; };
+		BEBD5E871631C68600AA2588 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBD5E831631C68600AA2588 /* Icon-72.png */; };
+		BEBD5E881631C68600AA2588 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBD5E841631C68600AA2588 /* Icon-72@2x.png */; };
+		BEBD5E891631C68600AA2588 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBD5E851631C68600AA2588 /* Icon.png */; };
+		BEBD5E8A1631C68600AA2588 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBD5E861631C68600AA2588 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,16 @@
 		BEBD5E6C1631C4D900AA2588 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BEBD5E6E1631C4D900AA2588 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BEBD5E701631C4D900AA2588 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BEBD5E741631C4D900AA2588 /* Oct25-Info.plist */ = {isa = PBXFileReference; path = "Oct25-Info.plist"; sourceTree = "<group>"; };
+		BEBD5E741631C4D900AA2588 /* Oct25-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Oct25-Info.plist"; sourceTree = "<group>"; };
 		BEBD5E761631C4D900AA2588 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEBD5E781631C4D900AA2588 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BEBD5E7A1631C4D900AA2588 /* Oct25-Prefix.pch */ = {isa = PBXFileReference; path = "Oct25-Prefix.pch"; sourceTree = "<group>"; };
-		BEBD5E7B1631C4D900AA2588 /* Oct25AppDelegate.h */ = {isa = PBXFileReference; path = Oct25AppDelegate.h; sourceTree = "<group>"; };
+		BEBD5E7A1631C4D900AA2588 /* Oct25-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Oct25-Prefix.pch"; sourceTree = "<group>"; };
+		BEBD5E7B1631C4D900AA2588 /* Oct25AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Oct25AppDelegate.h; sourceTree = "<group>"; };
 		BEBD5E7C1631C4D900AA2588 /* Oct25AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oct25AppDelegate.m; sourceTree = "<group>"; };
+		BEBD5E831631C68600AA2588 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		BEBD5E841631C68600AA2588 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = SOURCE_ROOT; };
+		BEBD5E851631C68600AA2588 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		BEBD5E861631C68600AA2588 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,10 @@
 		BEBD5E731631C4D900AA2588 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEBD5E831631C68600AA2588 /* Icon-72.png */,
+				BEBD5E841631C68600AA2588 /* Icon-72@2x.png */,
+				BEBD5E851631C68600AA2588 /* Icon.png */,
+				BEBD5E861631C68600AA2588 /* Icon@2x.png */,
 				BEBD5E741631C4D900AA2588 /* Oct25-Info.plist */,
 				BEBD5E751631C4D900AA2588 /* InfoPlist.strings */,
 				BEBD5E781631C4D900AA2588 /* main.m */,
@@ -141,6 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEBD5E771631C4D900AA2588 /* InfoPlist.strings in Resources */,
+				BEBD5E871631C68600AA2588 /* Icon-72.png in Resources */,
+				BEBD5E881631C68600AA2588 /* Icon-72@2x.png in Resources */,
+				BEBD5E891631C68600AA2588 /* Icon.png in Resources */,
+				BEBD5E8A1631C68600AA2588 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
