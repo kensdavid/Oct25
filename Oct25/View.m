@@ -41,7 +41,7 @@
     point = CGPointMake(xAxis, 0.0);
     [string drawAtPoint:point withFont:font];
 
-    NSString *mySymbols = @"AAPL,GOOG,YHOO,MSFT,VZ";
+    NSString *mySymbols = @"AAPL,GOOG,YHOO,MSFT,VZ,GE";
     
     NSURL *url = [[NSURL alloc] initWithString:[[NSString alloc] initWithFormat: @"http://finance.yahoo.com/d/quotes.csv?s=%@&f=sl1t1j1",mySymbols]];
     int componentCount = 4; //component count determined by the f value on the query string below

@@ -22,7 +22,7 @@
 		BED3E0FE1632ECD800E616E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BED3E0F71632ECD800E616E9 /* InfoPlist.strings */; };
 		BED3E0FF1632ECD800E616E9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BED3E0F91632ECD800E616E9 /* Localizable.strings */; };
 		BED3E1001632ECD800E616E9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BED3E0FC1632ECD800E616E9 /* Localizable.strings */; };
-		BED3E1021632EE2900E616E9 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = BED3E1011632EE2900E616E9 /* screen.png */; };
+		BED3E1041632EEED00E616E9 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = BED3E1031632EEED00E616E9 /* screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +46,7 @@
 		BED3E0F81632ECD800E616E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		BED3E0FA1632ECD800E616E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		BED3E0FD1632ECD800E616E9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
-		BED3E1011632EE2900E616E9 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen.png; path = ../../screen.png; sourceTree = "<group>"; };
+		BED3E1031632EEED00E616E9 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 		BEBD5E731631C4D900AA2588 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BED3E1011632EE2900E616E9 /* screen.png */,
+				BED3E1031632EEED00E616E9 /* screen.png */,
 				BEBD5E831631C68600AA2588 /* Icon-72.png */,
 				BEBD5E841631C68600AA2588 /* Icon-72@2x.png */,
 				BEBD5E851631C68600AA2588 /* Icon.png */,
@@ -207,7 +207,7 @@
 				BED3E0FE1632ECD800E616E9 /* InfoPlist.strings in Resources */,
 				BED3E0FF1632ECD800E616E9 /* Localizable.strings in Resources */,
 				BED3E1001632ECD800E616E9 /* Localizable.strings in Resources */,
-				BED3E1021632EE2900E616E9 /* screen.png in Resources */,
+				BED3E1041632EEED00E616E9 /* screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,9 +318,14 @@
 		BEBD5E811631C4D900AA2588 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Oct25/Oct25-Prefix.pch";
 				INFOPLIST_FILE = "Oct25/Oct25-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -329,9 +334,14 @@
 		BEBD5E821631C4D900AA2588 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Oct25/Oct25-Prefix.pch";
 				INFOPLIST_FILE = "Oct25/Oct25-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
